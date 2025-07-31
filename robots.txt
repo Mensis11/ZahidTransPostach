@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ztp.com.ua/sitemap.xml
