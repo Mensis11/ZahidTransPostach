@@ -203,6 +203,10 @@ main {
     font-weight: 500;
 }
 
+.features-text {
+    margin-top: 20px;
+}
+
 h1 {
     margin-top: 0;
     font-size: 40px;

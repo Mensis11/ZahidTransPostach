@@ -107,25 +107,34 @@ header {
     row-gap: 50px;
 }
 
-h1 {
+.title-text {
     font-size: 32px;
     margin-bottom: 20px;
     color: #333;
+    text-align: center;
 }
 
-.product-title {
-    margin-top: 0;
-    font-weight: 700;
-    font-size: 30px;
-}
-
-h1::after {
+.title-text::after {
     content: "";
     display: block;
     width: 50px; 
     height: 4px; 
     background-color: #FFCC00; 
     margin: 10px auto 0; 
+}
+
+.product-title {
+    margin-top: 0;
+    font-weight: 700;
+    font-size: 28px;
+    color: #333;
+}
+
+.product-description {
+    margin-top: 0;
+    font-weight: 400;
+    font-size: 22px;
+    color: #555;
 }
 
 .product {
@@ -185,13 +194,6 @@ h1::after {
     background-color: white;
 }
 
-h1 {
-    text-align: center;
-    font-size: 32px;
-    margin-bottom: 20px;
-    color: #333;
-}
-
 
 .item-bulldozer {
     background-color: #fff;
@@ -202,11 +204,6 @@ h1 {
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     width: 720px;
     height: 372px;
-}
-
-h2 {
-    font-size: 28px;
-    color: #333;
 }
 
 .content-bulldozer {
@@ -450,17 +447,21 @@ a {
         width: 80%;
     }
 
+    .title-text {
+        font-size: 25px;
+    }
+
     .description {
         width: 90%;
         margin-left: 0;
         text-align: center;
     }
 
-    .description p {
+    .product-description {
         font-size: 16px;
     }
 
-    .description h2 {
+    .product-title {
         font-size: 25px;
         margin-top: 30px;
     }
